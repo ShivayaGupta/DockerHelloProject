@@ -54,13 +54,14 @@
 	</dependencies>
 
 	<build>
+			<fileName>helloApp</fileName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
 		</plugins>
-		<fileName>helloApp</fileName>
+
 	</build>
 
 </project>
